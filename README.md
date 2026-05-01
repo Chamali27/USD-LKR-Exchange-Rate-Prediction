@@ -10,7 +10,7 @@ This repository contains the **research paper, dataset, and Python-based forecas
 The study applies the CRISP-DM (Cross Industry Standard Process for Data Mining) framework to build and compare multiple ML models, analyze historical exchange rate patterns, and generate 30-day forward forecasts with confidence intervals.
 
 **Key highlights:**
-- 16 years of daily USD/LKR exchange rate data from the Central Bank of Sri Lanka (2010–2026)
+- 16 years of daily USD/LKR exchange rate data from the Central Bank of Sri Lanka (2010-2026)
 - Comparative analysis of Random Forest, XGBoost, Gradient Boosting, and Ensemble models
 - Feature engineering with moving averages, volatility measures, and lag features
 - 30-day recursive multi-step forecasting with 95% confidence intervals
@@ -68,7 +68,7 @@ The dataset is cleaned, validated, and preprocessed prior to model implementatio
   - Random Forest Regressor
   - XGBoost
   - Gradient Boosting Regressor
-  - Weighted Ensemble (XGB=0.40, RF=0.30, GB=0.30)
+  - Weighted Ensemble (XGB-0.40, RF=0.30, GB=0.30)
 - Recursive multi-step forecasting for 30-day horizon
 - 95% confidence interval estimation using empirical error distribution
 
@@ -92,7 +92,7 @@ The dataset is cleaned, validated, and preprocessed prior to model implementatio
 
 ## Limitations and Future Work
 
-- Only historical exchange rate data is used — political, inflationary, and trade factors are not explicitly modeled
+- Only historical exchange rate data is used - political, inflationary, and trade factors are not explicitly modeled
 - Battery and external macroeconomic shocks can cause large short-term deviations
 - Confidence intervals widen progressively over the 30-day forecast horizon
 
